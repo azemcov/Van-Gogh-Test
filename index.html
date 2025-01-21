@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Urban Dwelling</title>
+  </head>
+  <body>
+    <header>
+      <div id="header_top">
+        <div id="header_top_bar">
+          <nav id="header_top_bar_links">
+            <a class="white_400 font_16px" href="">Доставка и оплата</a>
+            <a class="white_400 font_16px" href="">Гарантия и возврат</a>
+            <a class="white_400 font_16px" href="">EN</a>
+          </nav>
+        </div>
+      </div>
+      <div id="header_desktop">
+        <nav id="header_desktop_bar">
+          <img
+            id="header_desktop_bar_logo"
+            src="./src/pics/Logo_black.svg"
+            alt="logo" />
+          <div id="header_desktop_menu">
+            <a class="dark_600_UPPER font_16px" href="">Каталог</a>
+            <a class="dark_600_UPPER font_16px" href="">О компании</a>
+            <a class="dark_600_UPPER font_16px" href="">Контакты</a>
+          </div>
+          <div id="header_desktop_bar_search-basket-container">
+            <div id="header_desktop_bar_search">
+              <input
+                id="header_desktop_bar_search-input"
+                type="search"
+                placeholder="Поиск" />
+              <img
+                id="header_desktop_bar_search_magnifier"
+                src="./src/pics/search-dark.svg"
+                alt="magnifier" />
+            </div>
+            <div id="header_desktop_bar_search-button">
+              <img
+                id="header_desktop_bar_search-button_magnifier"
+                src="./src/pics/search-white.svg"
+                alt="magnifier" />
+            </div>
+            <button id="header_desktop_bar_basket">
+              <div id="header_desktop_bar_basket_img-container">
+                <img
+                  id="header_desktop_bar_basket_img-container_basket-img"
+                  src="./src/pics/Bag.svg"
+                  alt="bag" />
+                <div id="header_desktop_bar_basket_img-container_counter">
+                  <p
+                    class="dark_400"
+                    id="header_desktop_bar_basket_img-container_counter_number"
+                    >3</p
+                  >
+                </div>
+              </div>
+              <p class="white_400 font_16px">Корзина</p>
+            </button>
+            <div id="header_desktop_bar_burger-menu">
+              <img src="./src/pics/Menu.svg" alt="menu" />
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!--  -->
+    <section id="search-section">
+      <div id="search-section_bar">
+        <h2 class="dark_title">Результаты поиска</h2>
+        <div id="search-section_bar_cards"></div>
+      </div>
+    </section>
+    <!--  -->
+    <footer>
+      <div id="footer_section">
+        <div id="footer_section_bar">
+          <div class="contacts">
+            <img
+              id="footer_section_bar_img1"
+              src="./src/pics/Logo_whtie.svg"
+              alt="" />
+          </div>
+          <div id="footer_section_bar_info-section">
+            <div id="footer_section_bar_info-section_info-1">
+              <img
+                id="footer_section_bar_img2"
+                src="./src/pics/Logo_whtie.svg"
+                alt="" />
+              <div class="contacts3">
+                <p class="font_16px gray_400"
+                  >Этот сайт защищен от спама службой reCAPTCHA Google.
+                  <span class="line"
+                    >Политика конфиденциальности/Условия предоставления
+                    услуг</span
+                  ></p
+                >
+              </div>
+            </div>
+            <div id="footer_section_bar_info-section_info-2">
+              <div class="contacts">
+                <p class="font_18px white_700">Адрес</p>
+                <p class="font_16px white_400">Текст, Текст, Текст</p>
+              </div>
+              <div class="contacts">
+                <p class="font_18px white_700">Контакты</p>
+                <p class="font_16px white_400"
+                  >Email: urban.dwelling@yandex.com</p
+                >
+                <p class="font_16px white_400">Телефон: 8 (999) 999-99-99</p>
+              </div>
+            </div>
+            <div id="footer_section_bar_info-section_info-3">
+              <nav class="contacts">
+                <p class="font_18px white_700">Каталог</p>
+                <a href="" class="font_16px white_400">О компании</a>
+                <a href="" class="font_16px white_400">Контакты</a>
+                <a href="" class="font_16px white_400">Доставка и оплата</a>
+                <a href="" class="font_16px white_400">Гарантия и возврат</a>
+              </nav>
+            </div>
+            <div id="footer_section_bar_info-section_info-4">
+              <div class="contacts2">
+                <a href="" class="gray_400 font_16px">Публичная оферта</a>
+                <a href="" class="gray_400 font_16px alighn_right"
+                  >Политика персональных данных</a
+                >
+                <img
+                  class="payMethods"
+                  src="./src/pics/payMethods.svg"
+                  alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script type="module" src="./src/main.js"></script>
+</html>
