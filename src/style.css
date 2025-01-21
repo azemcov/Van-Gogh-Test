@@ -301,7 +301,7 @@ h2 {
 }
 
 .details-section {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
   position: absolute;
@@ -315,6 +315,11 @@ h2 {
   -ms-border-radius: 0 0 20px 20px;
   -o-border-radius: 0 0 20px 20px;
 }
+
+.card:hover .details-section {
+  display: flex;
+}
+
 .details {
   background: #e45302;
   border: none;
@@ -350,13 +355,11 @@ footer {
 }
 
 #footer_section {
-  border: 1px red solid;
   display: flex;
   justify-content: center;
 }
 
 #footer_section_bar {
-  border: 1px green solid;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -625,7 +628,7 @@ footer {
     font-size: 16px;
   }
   .details-section {
-    display: flex;
+    display: none !important;
   }
   #footer_section_bar_info-section {
     display: block;
@@ -640,7 +643,7 @@ footer {
     display: none;
   }
   .details-section {
-    display: none;
+    display: none !important;
   }
 }
 

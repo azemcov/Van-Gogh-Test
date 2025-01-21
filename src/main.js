@@ -73,7 +73,7 @@ document.getElementById('search-section_bar_cards').innerHTML = Array(8)
   <div class="pic-section"
     ><img class="pic" src="${pic(num)}" alt="" />
     <div class="details-section">
-      <button src="" class="white_600 details">Подробнее</button>
+      <button class="white_600 details">Подробнее</button>
     </div></div
   >
   <p class="font_title m-2" id="card-${num + 1}_title"
